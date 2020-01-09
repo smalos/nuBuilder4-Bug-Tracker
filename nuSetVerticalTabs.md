@@ -1,7 +1,11 @@
-Issue: When I use the 'nuSetVerticalTabs()' Javascript procedure in any form with the latest version of NuBuilder, I have a problem with the first tab : an HTML code appears instead of the tab title.
+## Issue: 
+
+When I use the 'nuSetVerticalTabs()' Javascript procedure in any form with the latest version of NuBuilder, I have a problem with the first tab : an HTML code appears instead of the tab title.
 Does anyone else have the same problem ? ([Source:](https://forums.nubuilder.com/viewtopic.php?f=20&t=10200&p=20165#p20165))
 
-Fix: Add this function in the Header (under Setup) and login into nuBuilder.
+## Fix: 
+
+Add this function in the Header (under Setup) and login into nuBuilder.
 
 ```
 function nuSetVerticalTabs(){
