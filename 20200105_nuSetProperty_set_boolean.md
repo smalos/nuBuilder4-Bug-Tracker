@@ -16,7 +16,7 @@ Result:
 ```
 
 
-### Fix 1:
+### Workaround:
 
 Convert the boolean to a string with .toString() to make it work. Or pass "true" instead of true in the 2nd parameter of nuSetProperty()
 
