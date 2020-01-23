@@ -2,7 +2,7 @@
 
 Sometimes data subform are recorded twice when the user just click on the Save button. How is this possible? 
 
-### Fix: 
+### Workaround: 
 
 Add the following code in the Header (under Setup) This will prevent a user from double-clicking am Action Button (of any form)
 
