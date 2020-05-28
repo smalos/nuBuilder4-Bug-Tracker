@@ -1,6 +1,7 @@
 ### Issue: 
 
-I just created a test form with 3 Fields on it. If I add a entry and don't fill in all 3 fields I get a SQL ERROR. Here I only fill in field 1 and 2:
+I just created a test form with 3 Fields on it. 
+If I add an entry and don't fill in all 3 fields I get a SQL ERROR. Here I only fill in field 1 and 2:
 
 ````
 CODE: SELECT ALL
@@ -39,12 +40,12 @@ Replace the function nuBuildNewTable() in nubuilders.php with the one below so t
 		$f = $array[$i]['name'];
 		$t = $array[$i]['type'];
 		
-		if($t == 'id'){				$a[] = "$f VARCHAR(25) DEFAULT NULL";}
+		if($t == 'id'){			$a[] = "$f VARCHAR(25) DEFAULT NULL";}
 		if($t == 'varchar'){		$a[] = "$f VARCHAR(1000) DEFAULT NULL";}
-		if($t == 'int'){			$a[] = "$f INT DEFAULT NULL";}
+		if($t == 'int'){		$a[] = "$f INT DEFAULT NULL";}
 		if($t == 'textarea'){		$a[] = "$f TEXT DEFAULT NULL";}
 		if($t == 'decimal'){		$a[] = "$f DECIMAL(12,4) DEFAULT NULL";}
-		if($t == 'date'){			$a[] = "$f DATE DEFAULT NULL";}
+		if($t == 'date'){		$a[] = "$f DATE DEFAULT NULL";}
 		if($t == 'longtext'){		$a[] = "$f LONGTEXT DEFAULT NULL";}
 		
 	}
