@@ -11,6 +11,6 @@ https://forums.nubuilder.com/viewtopic.php?f=21&t=10374
 
 ### Fix:
 
-Appply this fix in /tcpdf_fonts.php:
+Appply this fix in tcpdf_fonts.php:
 
 https://github.com/tecnickcom/TCPDF/commit/e2deae00e5ac436560667d6afe1fe2bac3ec8859
