@@ -9,7 +9,7 @@ What happens? All objects are shifted downwards.
 
 
 <p align="left">
-  <img src="screenshots/nuSetVerticalTabs.gif">
+  <img src="screenshots/nuSetVerticalTabs_bug.gif">
 </p>
 
 
