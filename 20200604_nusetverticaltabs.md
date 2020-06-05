@@ -13,7 +13,7 @@ What happens? All objects are shifted downwards.
 </p>
 
 
-### Fix:
+### Fix (Update: Seems not to work properly, nuTabHolder keeps increasing)
 
 In nuforms.js, add this line (e.g. after line 51):
 
