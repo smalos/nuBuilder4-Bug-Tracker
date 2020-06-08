@@ -7,7 +7,7 @@ https://forums.nubuilder.com/viewtopic.php?f=19&t=10377
 
 ### Fix:
 
-Appply this fix in tcpdf_fonts.php:
+In nudata.php, replace this code fragment
 
 
 ```php
@@ -27,6 +27,8 @@ Appply this fix in tcpdf_fonts.php:
 							
 						}
 ```
+
+...with this one:
 
 ```php
 						$idx = array_search($fields[$R], $CTSTN);
