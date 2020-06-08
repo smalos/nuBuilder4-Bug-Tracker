@@ -6,6 +6,8 @@ nuTranslate() doesn't work when the globeadmin is logged in.
 
 In nucommon.php, replace the function nuUserLanguage() with this one:
 
+https://github.com/steven-copley/nubuilder4/blob/d569bb0d6a19dcaf4aa291bdcea1352ea183fa10/nucommon.php#L1545
+
 ```php
 function nuUserLanguage(){
 
