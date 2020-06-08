@@ -7,7 +7,7 @@ https://forums.nubuilder.com/viewtopic.php?f=19&t=10377
 
 ### Fix:
 
-In nudata.php, replace this code fragment
+In nudata.php, replace this code fragment:
 
 
 ```php
