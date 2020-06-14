@@ -41,8 +41,8 @@ function nuSetVerticalTabs(){
 
    });
 
-   $('#nuTabHolder').css('width', w);
-   $('.nuTab').css('width', w);
+   $('#nuTabHolder').css('width', w + 30);
+   $('.nuTab').css('width', w + 30);
    
    window.nuVerticalTabs = true;
 }
