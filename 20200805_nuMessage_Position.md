@@ -19,5 +19,5 @@ With these two lines:
 
 ```javascript
 var w = $(this).innerWidth();
-var l = $(this).scrollLeft() + ( w - widest) / 2;
+var l = Math.max(0, $(this).scrollLeft() + ( w - widest) / 2);
 ```
