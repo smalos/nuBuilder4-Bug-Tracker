@@ -18,6 +18,6 @@ var l		= ( $(window.top.document).width() - widest) / 2;
 With these two lines:
 
 ```javascript
-var d = $(this).innerWidth();
-var l = $(this).scrollLeft() + ( d - widest) / 2;
+var w = $(this).innerWidth();
+var l = $(this).scrollLeft() + ( w - widest) / 2;
 ```
