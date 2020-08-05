@@ -1,7 +1,7 @@
 ### Issue: 
 
 When calling nuMessage() within a Popup/iFrame, the message box is displayed too far to the right, outside the visible area. 
-Only if you scroll to the right, you will see the error message.
+Only if you scroll to the left, you will see the error message.
 
 https://forums.nubuilder.com/viewtopic.php?f=19&t=10345&p=21009&hilit=numessage#p21009
 
