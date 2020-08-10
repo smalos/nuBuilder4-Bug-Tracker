@@ -6,6 +6,6 @@ https://forums.nubuilder.com/viewtopic.php?f=19&t=10198&hilit=addable#p20157
 
 ### How to fix: 
 
-The function nuValidateSubforms() needs fixing so that the error "cannot be left blank" will not be displayed if addable & deleteable are set to true.
+The function nuValidateSubforms() needs fixing so that the error "cannot be left blank" will not be displayed if addable & deleteable are set to false.
 
 ### Fix: not available!
