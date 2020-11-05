@@ -13,4 +13,15 @@ Not available!
 
 ### Workaround: 
 
-Open each nuBuilder instance in another browser...
+Use different subfomains. E.g.
+
+http://nubuilder1.localhost/index.php
+http://nubuilder2.localhost/index.php
+
+Instead of
+
+http://localhost/nubuilder1/index.php
+http://localhost/nubuilder2/index.php
+
+
+Or open each nuBuilder instance in another browser.
