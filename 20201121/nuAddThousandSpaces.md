@@ -6,7 +6,7 @@ E.g. -123 is formatted as $ -,123.00
 
 The expected output is $ -123.00
 
-(Tested with format N|$ 1,000.00 )
+( Tested with format N|$ 1,000.00 )
 
 ### Fix: 
 
