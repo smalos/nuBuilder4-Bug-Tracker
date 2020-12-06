@@ -16,7 +16,7 @@ nuform.js?ts=20201206090157:1812 Uncaught TypeError: Cannot read property 'id' o
 ```
 
 <p align="left">
-  <img src="screenshots/nuSetStartingTab.png">
+  <img src="screenshots/nuSetStartingTab.gif">
 </p>
 
 
