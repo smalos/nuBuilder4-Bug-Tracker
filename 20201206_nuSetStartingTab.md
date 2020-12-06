@@ -22,7 +22,7 @@ nuform.js?ts=20201206090157:1812 Uncaught TypeError: Cannot read property 'id' o
 
 ### Fix: 
 
-Add return if w.tabs.length == 0 
+Add a return statement if w.tabs.length == 0 
 
 ```javascript
 function nuSetStartingTab(p, w){
